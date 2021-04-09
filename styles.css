@@ -36,6 +36,7 @@ select, option {
 }
 body {
     font-family: 'Roboto';
+    margin: 0;
 }
 nav {
     max-width: 80%;

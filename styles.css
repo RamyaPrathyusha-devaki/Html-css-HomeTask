@@ -53,7 +53,7 @@ section{
     max-width: 80%;
     margin: auto;
 }
-.flex-container {
+.flexContainer {
     max-width: 80%;
     margin: auto;
     display: flex;
@@ -64,10 +64,10 @@ section{
     border-bottom: 2px solid rgb(189, 173, 173); 
     margin-bottom:10px;
 }
-.select_bar{
+.selectBar{
     order: 1;
 }
-.head_font{
+.headFont{
     order: 2;
     font-family: 'Audiowide';
 }
@@ -80,15 +80,15 @@ section{
     background-color: black;
     color: aliceblue;
 }
-.border-line{
+.borderLine{
     border-bottom: 1px solid rgb(189, 173, 173);
 }
-.news_data{
+.newsData{
     display: flex;
     flex-direction: row;
     padding-bottom: 10px;
 }
-.news_description{
+.newsDescription{
     display: flex;
     flex-direction: column;
 }
@@ -103,7 +103,7 @@ section{
     justify-content: center;
     align-items: center;
 }
-.contueBtn{
+.contueButton{
     height: auto;
     background-color: red;
     color: aliceblue;
@@ -112,11 +112,11 @@ section{
 }
 
 @media screen and (max-width: 600px){
-    .head_font{
+    .headFont{
         order: 1;
         font-family: 'Audiowide';
     }
-    .select_bar{
+    .selectBar{
         order: 3;
         width:80%;
     }
@@ -124,13 +124,13 @@ section{
         order: 2;
         width:80%;
     }
-    .flex-container {
+    .flexContainer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         border-bottom: 2px solid rgb(189, 173, 173); 
     }
-    .news_data{
+    .newsData{
         display: flex;
         flex-direction: column;
         padding-bottom: 10px;
@@ -138,11 +138,11 @@ section{
 }
 
 @media screen and (min-width: 601px) and (max-width: 1023px){
-    .head_font{
+    .headFont{
         order: 1;
         font-family: 'Audiowide';
     }
-    .select_bar{
+    .selectBar{
         order: 3;
         width:80%;
     }
@@ -150,16 +150,17 @@ section{
         order: 2;
         width:80%;
     }
-    .flex-container {
+    .flexContainer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: space-evenly;
         border-bottom: 2px solid rgb(189, 173, 173); 
     }
-    .flex-container>div {
+    .flexContainer>div {
         flex: 1 0 50%;
     } 
-    .flex-container>div:first-child {
+    .flexContainer>div:first-child {
         flex: 0 1 100%;
         text-align: center;
     }
